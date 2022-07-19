@@ -5,17 +5,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch Chrome",
-            "request": "launch",
-            "type": "chrome",
-            "url": "http://localhost:8080",
-            "webRoot": "${workspaceFolder}"
-        },
-        {
             "type": "pwa-chrome",
             "request": "launch",
-            "name": "Open fondo.component.html",
-            "file": "d:\\Users\\COREi5\\Documents\\GitHub\\proyecto-AP\\proyecto-AP\\src\\app\\componentss\\fondo\\fondo.component.html"
+            "name": "Launch Chrome against localhost",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
         }
     ]
 }
